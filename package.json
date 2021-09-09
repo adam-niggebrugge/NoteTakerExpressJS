@@ -15,11 +15,12 @@
   },
   "author": "Nai",
   "license": "ISC",
-  "bugs":{
+  "bugs": {
     "url": "https://github.com/adam-niggebrugge/NoteTakerExpressJS/issues"
   },
   "homepage": "https://github.com/adam-niggebrugge/NoteTakerExpressJS#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^2.0.12"
   }
 }
