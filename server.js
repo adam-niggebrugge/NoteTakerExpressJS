@@ -21,5 +21,9 @@ app.use(express.static('public'));
 app.use('/api', apiRoutes);
 app.use('/', htmlRoutes);
 
+
+
+
 // Start the server on the port
+
 app.listen(PORT, () => console.log(`App listening on port ${PORT}, Rodger that!`));
