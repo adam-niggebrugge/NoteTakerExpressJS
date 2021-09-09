@@ -1,4 +1,9 @@
 const router = require('express').Router();
+const {
+    readFromFile,
+    readAndAppend,
+    writeToFile,
+} = require('../helpers/fsUtils');
 
 router.get('/notes', (req, res) => {
     //res.send("Hello Worlds!!"); //testing
