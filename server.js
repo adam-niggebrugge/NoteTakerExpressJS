@@ -18,8 +18,8 @@ const PORT = process.env.PORT || 3006;//locally have 3006 port to open and liste
 app.use(express.json());
 app.use(express.urlencoded({extended: true}));
 app.use(express.static('public'));
-app.use('/api', apiRoutes);
-app.use('/', htmlRoutes);
+// app.use('/api', apiRoutes);
+// app.use('/', htmlRoutes);
 
 // Start the server on the port
 app.listen(PORT, () => console.log(`App listening on port ${PORT}, Rodger that!`));
