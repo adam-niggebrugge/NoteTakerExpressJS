@@ -19,7 +19,7 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.static('public'));
 //Now this will drive the server js to connect all routes prefixed with API to the apiRoutes.js
 app.use('/api', apiRoutes);
-app.use('/', htmlRoutes);
+
 
 
 
