@@ -1,4 +1,4 @@
-git/**
+/**
  * Boiler plate script for server creation.
  */
 const express = require('express');
