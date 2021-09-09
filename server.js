@@ -8,7 +8,11 @@ const htmlRoutes = require('./routes/htmlRoutes');
 
 //Initialize the app and create a port
 const app = express();
-const PORT = process.env.PORT || 3036;
+//Heroku has many ports availiable and should determine it
+//Heroku sets an environmental variable nice feature where it can 
+//node has the ability to access environmental variables through process.env
+//priority is order left to right, dynamically open
+const PORT = process.env.PORT || 3006;//locally have 3006 port to open and listen
 
 // Set up body parsing, static, and route middleware
 app.use(express.json());
