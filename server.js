@@ -3,7 +3,7 @@
  */
 const express = require('express');
 const apiRoutes = require('./routes/apiRoutes');  //from homework example
-// const htmlRoutes = require('./routes/htmlRoutes');
+const htmlRoutes = require('./routes/htmlRoutes');
 
 //Initialize the app and create a port
 const app = express();
@@ -19,7 +19,7 @@ app.use(express.urlencoded({extended: true}));
 app.use(express.static('public'));
 //Now this will drive the server js to connect all routes prefixed with API to the apiRoutes.js
 app.use('/api', apiRoutes);
-// app.use('/', htmlRoutes);
+app.use('/', htmlRoutes);
 
 // Start the server on the port
 app.listen(PORT, () => console.log(`App listening on port ${PORT}, Rodger that!`));
