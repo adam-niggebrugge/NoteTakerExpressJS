@@ -1,8 +1,11 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "Note Taking App that is deployable to any user",
   "main": "server.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,6 +15,10 @@
   },
   "author": "Nai",
   "license": "ISC",
+  "bugs":{
+    "url": "https://github.com/adam-niggebrugge/NoteTakerExpressJS/issues"
+  },
+  "homepage": "https://github.com/adam-niggebrugge/NoteTakerExpressJS#readme",
   "dependencies": {
     "express": "^4.17.1"
   }
