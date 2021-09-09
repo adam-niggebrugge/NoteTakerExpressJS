@@ -1,14 +1,14 @@
-/**
+git/**
  * Boiler plate script for server creation.
  */
 const express = require('express');
-const path = require('path');
-const apiRoutes = require('./routes/apiRoutes');  //from homework example
-const htmlRoutes = require('./routes/htmlRoutes');
+// const path = require('path');
+// const apiRoutes = require('./routes/apiRoutes');  //from homework example
+// const htmlRoutes = require('./routes/htmlRoutes');
 
 //Initialize the app and create a port
 const app = express();
-//Heroku has many ports availiable and should determine it
+//Heroku has many ports availiable and should determine itgit 
 //Heroku sets an environmental variable nice feature where it can 
 //node has the ability to access environmental variables through process.env
 //priority is order left to right, dynamically open
