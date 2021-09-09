@@ -17,13 +17,13 @@ notes.post('/', (req, res) => {
     if (req.body){
         const newNote = {
             title,
-            text
+            text,
         };
 
         readAndAppend(newNote, './db/db.json');
-        res.json(`Tip added successfully 🚀`);
+        res.json(`Note added successfully 🚀`);
     } else {
-        res.error('Error in adding tip');
+        res.error('Error in adding Note');
     }
 });
 
