@@ -41,7 +41,18 @@ Javascript, NodeJS Express, Heroku, CSS, HTML
 ```
 
 npm install express
+npm install uuid
+
+```
+
+For local deployment
+```
 node server.js
+```
+
+I used Heroku for a cloud server. The following commands do require an account to be started with Heroku.
+```
+
 heroku login
 heroku auth:login
 heroku create
@@ -52,7 +63,7 @@ _ _ _ _
 
 ## Tests
 
-
+TODO
 
 ## Contributing
 
