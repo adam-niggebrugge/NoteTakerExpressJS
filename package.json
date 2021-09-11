@@ -2,12 +2,11 @@
   "name": "note-taker",
   "version": "1.0.0",
   "description": "Note Taking App that is deployable to any user",
-  "main": "./server.js",
+  "main": "server.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "start": "./server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
