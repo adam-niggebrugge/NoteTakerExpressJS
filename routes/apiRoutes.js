@@ -7,7 +7,7 @@ const {
 } = require('../helpers/fsUtils');
 
 // GET route for retrieving all the notes
-notes.get('/notes', (req, res) => {
+notes.get('/', (req, res) => {
     readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
 });
 
@@ -27,6 +27,7 @@ notes.get('/:note_id', (req, res) => {
 // DELETE Route for a specific tip
 notes.delete('/:note_id', (req, res) => {
     const noteId = req.params.note_id;
+    console.log(noteId);
     readFromFile('./db/db.json')
       .then((data) => JSON.parse(data))
       .then((json) => {
@@ -42,7 +43,7 @@ notes.delete('/:note_id', (req, res) => {
   });
   
 
-notes.post('/notes', (req, res) => {
+notes.post('/', (req, res) => {
     console.log(req.body);
 
     const { title, text } = req.body;
