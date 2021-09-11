@@ -24,17 +24,21 @@
 
 ## Description
 
-This application will use an Express.js back end and will save and retrieve note data from a JSON file.
+This application will use an Express.js back end and will save and retrieve note data from a JSON file.  The front end of the application was already developed.
+
 
 ## Usage
 
 Deployment of an app to a remote server that will use continous integration.
 
+![Note Taker](https://user-images.githubusercontent.com/83618122/132935893-32302a89-296d-4506-87df-85afe6cd8bd5.gif)
+
+[Take A Note](https://mighty-badlands-63727.herokuapp.com/)
 _ _ _ _
 
 ## Technology
 
-Javascript, NodeJS Express, Heroku, CSS, HTML
+NodeJS Express, NodeJS uuid, Heroku, Javascript, CSS, HTML
 
 ## Installation
 
@@ -47,7 +51,8 @@ npm install uuid
 
 For local deployment
 ```
-node server.js
+npm start
+
 ```
 
 I used Heroku for a cloud server. The following commands do require an account to be started with Heroku.
@@ -56,7 +61,7 @@ I used Heroku for a cloud server. The following commands do require an account t
 heroku login
 heroku auth:login
 heroku create
-git remote -v
+git push heroku main
 
 ```
 _ _ _ _
