@@ -1,32 +1,3 @@
 [
-    {
-        "title": "Extra Test45 Note",
-        "text": "Same cat different life. the second coming. I will tell you what, now that is the best darn thing I have ever heard. The second coming of the cats is a spectacular feat.",
-        "note_id": "2103c514-7d1a-4102-bf7d-9e9b430f2e96"
-    },
-    {
-        "title": "Trial with Title Save",
-        "text": "Went up and down this did, now all around.",
-        "note_id": "8942f747-8f1e-455e-aa69-bb16267d058d"
-    },
-    {
-        "title": "Testing front End",
-        "text": "Is this now a functioning front end? Looks that way.",
-        "note_id": "1a6f01a4-8928-48f6-96ab-654fbc721e3d"
-    },
-    {
-        "title": "Bring it oon",
-        "text": "Nice to see the front end and back end find some centering.",
-        "note_id": "7e8b95e9-4800-4ebd-9cfd-5ea2c2ced394"
-    },
-    {
-        "title": "Dumb add",
-        "text": "Nice to see the front end and back end find some centering.",
-        "note_id": "c56ce350-b50f-4bff-9d27-3d8d9f7d0170"
-    },
-    {
-        "title": "Third time Test22",
-        "text": "Well here is some more text notes to create and hopefully, destroy, or focus.",
-        "note_id": "f0794f00-8b39-4587-ae51-0fb6a10bf651"
-    }
+   
 ]
